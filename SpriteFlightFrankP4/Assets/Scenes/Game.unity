@@ -202,7 +202,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.7645618, g: 1, b: 0.13679248, a: 1}
+  m_Color: {r: 0, g: 0.21568629, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -509,7 +509,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.7645618, g: 1, b: 0.13679248, a: 1}
+  m_Color: {r: 0, g: 0.21568629, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -878,7 +878,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   scoreMultiplier: 10
+  uiDocument: {fileID: 927544752}
   BoosterFlame: {fileID: 130431032}
+  explosionEffect: {fileID: 3644851996318359825, guid: bc5c3e5d99c5daf40aa21afffd6c298a, type: 3}
   thrustForce: 1
 --- !u!1001 &711910363
 PrefabInstance:
@@ -1777,7 +1779,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.7645618, g: 1, b: 0.13679248, a: 1}
+  m_Color: {r: 0, g: 0.21568629, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
